@@ -1,4 +1,4 @@
-namespace QuizGame
+ namespace QuizGame
 {
     public partial class LogoScreen : Form
     {
@@ -19,7 +19,6 @@ namespace QuizGame
         {
             if (counter >= 10)
             {
-                // Exit loop code.  
                 LogoTimer.Enabled = false;
                 counter = 0;
                 this.Hide();
@@ -27,11 +26,8 @@ namespace QuizGame
                 sc.Show();
             }
             else
-            {
-                // Run your procedure here.  
-                // Increment counter.  
+            {  
                 counter = counter + 1;
-                
             }
         }
     }
